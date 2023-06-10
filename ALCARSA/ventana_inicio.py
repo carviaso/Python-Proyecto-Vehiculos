@@ -134,7 +134,6 @@ class Ventana_principal:
         self.barramenu.add_cascade(label="ALQUILER VEHICULO", menu=self.opciones6)
         #self.barramenu.add_cascade(label="CLIENTES", menu= self.opciones3)
 
-
         self.ventana_administracion.grab_set()
         self.vent_p.wait_window(self.ventana_administracion)
 
@@ -244,6 +243,7 @@ class Ventana_principal:
         #self.imagen = tk.PhotoImage(file="salir.gif")
         botton2 = Button(self.ventana_administracion, text="Salir", image= self.imagen, command=self.salir)
         botton2.place_configure(x=340, y=10, width=50, height=50)
+
         cargar_archivo = administrador
         self.lista = []
         self.lista = cargar_archivo.devuelve_lista(cargar_archivo)
@@ -300,7 +300,6 @@ class Ventana_principal:
         b.insert(0, "Usuario del administrador")
         b.grid(row=2, column=2)
         b.config(state='readonly')
-
 
         for i in range(height):  # Rows
             for j in range(width):  # Columns
