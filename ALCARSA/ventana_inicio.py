@@ -14,7 +14,7 @@ from asistente import asistente
 from cliente import cliente
 from vehiculo import vehiculo
 from promociones import promociones
-from  alquiler_vehiculo import alquiler_vehiculo
+from alquiler_vehiculo import alquiler_vehiculo
 from bitacora import bitacora
 
 
