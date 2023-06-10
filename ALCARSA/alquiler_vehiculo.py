@@ -4,6 +4,7 @@ from vehiculo import vehiculo
 from cliente import cliente
 import datetime
 
+
 class alquiler_vehiculo:
     #cliente_alquila= cliente
     #vehiculo_alquilado= vehiculo
@@ -98,7 +99,3 @@ class alquiler_vehiculo:
                 with  open("alquiler_vehiculo.pickle", "ab")as f:
                     pickle.dump(self.objeto, f)
                 contador = contador + 1
-
-
-
-

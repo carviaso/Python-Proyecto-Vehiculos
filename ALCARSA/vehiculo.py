@@ -1,6 +1,7 @@
 import pickle
 import os
 
+
 class vehiculo():
 
     # Esta funcion es para incializar la clase de tipo vehiculo
@@ -150,11 +151,3 @@ class vehiculo():
                   return lista_auxiliar
            else:
                   return lista_auxiliar
-
-
-
-
-
-
-
-

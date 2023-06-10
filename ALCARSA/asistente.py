@@ -1,6 +1,7 @@
 import pickle
 import os
 
+
 #Clase para guardar, consultar, modificar, etc todos los datos de los administradores del sistema
 class asistente(object):
 
@@ -153,5 +154,3 @@ class asistente(object):
                  return self.objetos[contador]
             else:
                  return []
-
-

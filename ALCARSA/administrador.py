@@ -1,6 +1,7 @@
 import pickle
 import os
 
+
 #Clase para guardar, consultar, modificar, etc todos los datos de los administradores del sistema
 class administrador(object):
 
@@ -143,5 +144,3 @@ class administrador(object):
 
             else:
                 return []
-
-

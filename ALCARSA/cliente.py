@@ -1,6 +1,7 @@
 import pickle
 import os
 
+
 # Esta es la clase cliente pretente crear , modificar ,cargar ,guardar y imprimir los arhivos.
 class cliente:
 

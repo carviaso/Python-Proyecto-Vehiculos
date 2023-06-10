@@ -1,6 +1,7 @@
 import pickle
 import os
 
+
 #Clase para guardar, consultar, modificar, cargar y guardar todos los usuarios que ingresan al sistema
 class bitacora(object):
 
