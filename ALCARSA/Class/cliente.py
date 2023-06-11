@@ -4,7 +4,7 @@ import os
 # Esta es la clase cliente pretente crear , modificar ,cargar ,guardar y imprimir los arhivos.
 class cliente:
 
-    def __init__(self,identificacion,nombre,profession, puesto,direccion_de_casa,lugar_de_trabajo,usuario,contraseña):
+    def __init__(self, identificacion, nombre, profesion, puesto, direccion_de_casa, lugar_de_trabajo, usuario, contraseña):
         self.identificacion= identificacion
         self.nombre= nombre
         self.profesion= profesion
